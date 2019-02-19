@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		149B0B46221BCE4B003769C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B0B45221BCE4B003769C4 /* AppDelegate.swift */; };
-		149B0B48221BCE4B003769C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B0B47221BCE4B003769C4 /* ViewController.swift */; };
+		149B0B48221BCE4B003769C4 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B0B47221BCE4B003769C4 /* SwipingController.swift */; };
 		149B0B4B221BCE4B003769C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149B0B49221BCE4B003769C4 /* Main.storyboard */; };
 		149B0B4E221BCE4B003769C4 /* SwipingPageRedditFeature.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 149B0B4C221BCE4B003769C4 /* SwipingPageRedditFeature.xcdatamodeld */; };
 		149B0B50221BCE51003769C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149B0B4F221BCE51003769C4 /* Assets.xcassets */; };
 		149B0B53221BCE51003769C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149B0B51221BCE51003769C4 /* LaunchScreen.storyboard */; };
+		149B0B5B221BD36F003769C4 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B0B5A221BD36E003769C4 /* Extensions+UIView.swift */; };
+		149B0B5D221BD775003769C4 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B0B5C221BD775003769C4 /* MenuController.swift */; };
+		149B0B63221BDB9B003769C4 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B0B62221BDB9B003769C4 /* MenuCell.swift */; };
+		149B0B66221BDE98003769C4 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B0B65221BDE98003769C4 /* MainCell.swift */; };
+		149B0B68221BE445003769C4 /* NewsItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B0B67221BE445003769C4 /* NewsItemsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		149B0B42221BCE4B003769C4 /* SwipingPageRedditFeature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipingPageRedditFeature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		149B0B45221BCE4B003769C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		149B0B47221BCE4B003769C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		149B0B47221BCE4B003769C4 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 		149B0B4A221BCE4B003769C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		149B0B4D221BCE4B003769C4 /* SwipingPageRedditFeature.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwipingPageRedditFeature.xcdatamodel; sourceTree = "<group>"; };
 		149B0B4F221BCE51003769C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		149B0B52221BCE51003769C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		149B0B54221BCE51003769C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149B0B5A221BD36E003769C4 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extensions+UIView.swift"; path = "../../Downloads/SwipingPageRedditFeature/SwipingPageRedditFeature/Extensions+UIView.swift"; sourceTree = "<group>"; };
+		149B0B5C221BD775003769C4 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		149B0B62221BDB9B003769C4 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		149B0B65221BDE98003769C4 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		149B0B67221BE445003769C4 /* NewsItemsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItemsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,36 @@
 		149B0B44221BCE4B003769C4 /* SwipingPageRedditFeature */ = {
 			isa = PBXGroup;
 			children = (
+				149B0B64221BDE87003769C4 /* Main */,
+				149B0B61221BDB73003769C4 /* Menu */,
 				149B0B45221BCE4B003769C4 /* AppDelegate.swift */,
-				149B0B47221BCE4B003769C4 /* ViewController.swift */,
 				149B0B49221BCE4B003769C4 /* Main.storyboard */,
 				149B0B4F221BCE51003769C4 /* Assets.xcassets */,
 				149B0B51221BCE51003769C4 /* LaunchScreen.storyboard */,
 				149B0B54221BCE51003769C4 /* Info.plist */,
+				149B0B5A221BD36E003769C4 /* Extensions+UIView.swift */,
 				149B0B4C221BCE4B003769C4 /* SwipingPageRedditFeature.xcdatamodeld */,
 			);
 			path = SwipingPageRedditFeature;
+			sourceTree = "<group>";
+		};
+		149B0B61221BDB73003769C4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				149B0B5C221BD775003769C4 /* MenuController.swift */,
+				149B0B62221BDB9B003769C4 /* MenuCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		149B0B64221BDE87003769C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				149B0B47221BCE4B003769C4 /* SwipingController.swift */,
+				149B0B65221BDE98003769C4 /* MainCell.swift */,
+				149B0B67221BE445003769C4 /* NewsItemsController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149B0B48221BCE4B003769C4 /* ViewController.swift in Sources */,
+				149B0B5D221BD775003769C4 /* MenuController.swift in Sources */,
+				149B0B66221BDE98003769C4 /* MainCell.swift in Sources */,
+				149B0B48221BCE4B003769C4 /* SwipingController.swift in Sources */,
+				149B0B63221BDB9B003769C4 /* MenuCell.swift in Sources */,
 				149B0B46221BCE4B003769C4 /* AppDelegate.swift in Sources */,
+				149B0B5B221BD36F003769C4 /* Extensions+UIView.swift in Sources */,
 				149B0B4E221BCE4B003769C4 /* SwipingPageRedditFeature.xcdatamodeld in Sources */,
+				149B0B68221BE445003769C4 /* NewsItemsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
