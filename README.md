@@ -1,3 +1,3 @@
-# SwipingPageRedditFeature
+# Reddit Style Navigation Menu
 
-Reddit Swiping Page Feature 
+Reddit Style Navigation Menu
